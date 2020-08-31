@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C2E0A0"
+    tools:context=".CameraActivity">
+
+    <com.priyankvasa.android.cameraviewex.CameraView
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:keepScreenOn="true"
+        app:aspectRatio="3:4"
+        app:autoFocus="continuous_picture"
+        app:awb="auto"
+        app:cameraMode="single_capture"
+        app:facing="back"
+        app:flash="auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:opticalStabilization="true"
+        app:outputFormat="jpeg"
+        app:pinchToZoom="true"
+        app:shutter="short_time"
+        app:touchToFocus="true"
+        app:zsl="true" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B3030303"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingEnd="5dp"
+        android:paddingRight="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Auto Detect :"
+                android:textColor="@android:color/white"/>
+
+            <Switch
+                android:id="@+id/sw_detection_mode"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginEnd="4dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Flashlight Mode :"
+                android:textColor="@android:color/white" />
+
+            <ImageView
+                android:id="@+id/iv_flash_mode"
+                android:layout_gravity="center"
+                android:onClick="onClick"
+                android:padding="5dp"
+                android:src="@drawable/flash_auto" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn_capture"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="77"
+        android:text="Deteksi"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@id/tv_diseases_detected"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_diseases_detected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BF4CAF50"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="PENYAKIT TERDETEKSI :"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tv_result"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BF4CAF50"
+        android:gravity="center"
+        android:maxLines="2"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="8dp"
+        android:text="\n"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
