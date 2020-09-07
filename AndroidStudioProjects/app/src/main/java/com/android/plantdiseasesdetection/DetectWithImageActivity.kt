@@ -93,7 +93,7 @@ class DetectWithImageActivity : AppCompatActivity(), View.OnClickListener {
             if (data != null) {
                 val uri = data.data
                 try {
-                    if (Build.VERSION.SDK_INT < 28) {
+                    if (Build.VERSION.SDK_INT < 29) {
                         picture = MediaStore.Images.Media.getBitmap(this.contentResolver, uri)
                     } else {
                         val pictureData =
