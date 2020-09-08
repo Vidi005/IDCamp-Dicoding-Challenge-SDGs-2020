@@ -21,6 +21,7 @@ Solusi diagonosa penyakit pada daun tanaman lebih dini untuk meningkatkan produk
   <img src="https://github.com/Vidi005/IDCamp-Dicoding-Challenge-SDGs-2020/blob/master/AndroidStudioProjects/Screenshots/Screenshot_2020-08-31-21-36-59-07.png" width="240" height="427">
   <img src="https://github.com/Vidi005/IDCamp-Dicoding-Challenge-SDGs-2020/blob/master/AndroidStudioProjects/Screenshots/Screenshot_2020-08-31-21-37-43-69.png" width="240" height="427">
 </p>
+
 ### Demos:
 <p align="center">
   <img src="https://github.com/Vidi005/IDCamp-Dicoding-Challenge-SDGs-2020/blob/master/AndroidStudioProjects/Screenshots/ezgif1.gif" width="240" height="427">
