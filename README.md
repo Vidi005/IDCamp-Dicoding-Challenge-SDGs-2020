@@ -3,7 +3,9 @@ IDCamp 2020 Developer Challenge: Mengubah Dunia Melalui Inovasi Teknologi Disele
 https://www.dicoding.com/challenges/619
 <br>
 ## Farm Doctor - Aplikasi Deteksi Penyakit Tanaman Berbasis ML
-Solusi diagonosa penyakit pada daun tanaman lebih dini untuk meningkatkan produktivitas pangan
+Solusi diagonosa penyakit pada daun tanaman lebih dini untuk meningkatkan produktivitas pangan.
+#### <i>==== This App Has Won The Challenge ====</i>
+<i>Link:</i> https://www.dicoding.com/blog/pemenang-idcamp-2020-developer-challenge-mengubah-dunia-melalui-inovasi-teknologi/
 ### Fitur aplikasi:
 - Diagnosa penyakit tanaman dengan kamera
 - Diagnosa penyakit tanaman dengan gambar
@@ -28,3 +30,6 @@ Solusi diagonosa penyakit pada daun tanaman lebih dini untuk meningkatkan produk
   <img src="https://github.com/Vidi005/IDCamp-Dicoding-Challenge-SDGs-2020/blob/master/AndroidStudioProjects/Screenshots/ezgif2.gif" width="240" height="427">
   <img src="https://github.com/Vidi005/IDCamp-Dicoding-Challenge-SDGs-2020/blob/master/AndroidStudioProjects/Screenshots/ezgif3.gif" width="240" height="427">
 </p>
+
+### Download Link App:
+https://github.com/Vidi005/IDCamp-Dicoding-Challenge-SDGs-2020/blob/master/AndroidStudioProjects/Outputs/Farm%20Doctor.apk
